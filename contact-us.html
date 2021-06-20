@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="sheets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>    
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ee8e8ed3;
+    padding: 20px;
+  }
+    </style>
+</head>
+<body class="image" >
+ 
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Sparks Bank</a>
+        <button class="navbar-toggler toggle-color" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link " href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">View Customers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact-Us">About-Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact-Us</a>
+            </li>
+            
+          </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <!-- here content starts here -->
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+          <div class="col-md-8 col-sm-24 text-center" data-aos="fade-up" style="margin-top: -20px;">
+              <h1>The Spark Foundation Bank</h1>
+              <p class="lead muted">Easy way to transfer money from any where</p>
+              
+              <p style="color: yellow;">Contact Us:If you have a question or a comment,use the form below.<hr></p>
+
+          
+          <br>
+          <div class="container">
+            <form action="action_page.php" style="margin-top:-10px ;">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
+    </div>
+    <br>
+    <!-- <a class="go-transection" href="./customers.html">Go Transection</a> -->
+    
+</div>
+</div>
+
+<!-- here content ends here -->
+
+<!-- footer starts here -->
+<footer>
+    <hr>
+    <div class="row text-center">
+      <div class="col-md-12 text-center" id="Contact-Us">
+        <h2 class="heading">SPARKS BANK, is a high quality, customer centric and service driven Bank. Since inception in 2004, SPARKS BANK has grown into a ‘Full Service Commercial Bank’ providing a complete range of products, services and technology driven digital offerings, catering to corporate, MSME & retail customers. SPARKS BANK operates its Investment banking, Merchant banking & Brokerage businesses through SPARKS SECURITIES and its Mutual Fund business through SPARKS Asset Management (India) Limited, both wholly owned subsidiaries of the Bank. </h2>
+        <h1 class="heading">Also Contact Us:</h1>
+        <p>Email id.- devansh@sparkbank.in</p>
+          <ul class="social-icons">
+            
+            <li><a target="_blank" class="github" ><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a target="_blank" class="linkedin" ><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a target="_blank" class="twitter" ><i class="fab fa-twitter fa-2x"></i></a></li>   
+          </ul>
+      </div>
+      <div class="col-md-12">
+        <p>Copyright &copy : All rights reserved</p>
+        
+      </div>
+
+    </div>
+  </footer>
+    
+    <!-- footer ends here -->
+    
+    <script src="sheets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+    
+    
+</body>
+</html>
